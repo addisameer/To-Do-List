@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container-fluid green nav-bar">
+        <div class="row">
+        <div class="col-md-9">
+            <h1 style="color:white" class="text-left">To-Do List</h1>
+        </div>
+        <div class="col-md-3">
+            <form action="#">
+                <fieldset style="border: none;">
+                <div class="row" style="margin-top: 2%;">
+                <div class="col-xs-9">
+                 <label for=""><input type="text" placeholder="Search items..." class="form-control" id="searchBar"></label>
+                </div>
+                <div class="col-md-3">
+                <button class="btn btn-default btn-xs btn-dark" id="searchBtn">Go</button>
+            </div>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+        </div>
+    </div>
+    <br>
+    <section>
+        <div class="container-fluid insert-item">
+            <form action="#">
+                <fieldset>
+                <div class="row">
+                <div class="col-xs-9">
+                <label for=""><input type="text" placeholder="Insert items..." class="form-control" id="insertBar"></label>
+                </div>
+                <div class="col-md-3">
+                <button class="btn btn-default btn-xs btn-dark" id="insertBtn">Add</button>
+            </div>
+            </div>
+            </fieldset>
+            </form>
+        </div>
+    </section>
+    <br>
+    <section class="box">
+        <div class="container-fluid boxItems" id="boxes">
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/ae7fdb486d.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

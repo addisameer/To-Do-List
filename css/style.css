@@ -1,0 +1,32 @@
+.green {
+    background-color: green;
+}
+
+.nav-bar {
+    padding: 1% 2%;
+}
+
+.insert-item {
+    margin-left:2% ;
+}
+
+.boxItems {
+    width: 50%;
+    /* border: 1px solid red; */
+}
+
+.itemBox {
+    margin-top: 5px;
+    background-color: aqua;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.display {
+    display: block;
+}
+
+.red {
+    background-color: red;
+}
